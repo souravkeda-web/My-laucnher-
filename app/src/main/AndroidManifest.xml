@@ -6,8 +6,9 @@
         android:label="My Launcher">
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+    android:name=".MainActivity"
+    android:screenOrientation="landscape"
+    android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
